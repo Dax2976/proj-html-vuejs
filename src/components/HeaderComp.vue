@@ -7,11 +7,10 @@
             <a href="# + element.link" class="text-black m-3"><strong>{{element.title}}</strong></a>
         </div>
         <div class="social m-3">
-           <font-awesome-icon icon="fa-brands fa-linkedin" class="m-1" />
-           <font-awesome-icon icon="fa-brands fa-instagram" class="m-1"/>
-           <font-awesome-icon icon="fa-brands fa-facebook" class="m-1"/>
-           <font-awesome-icon icon="fa-brands fa-twitter" class="m-1
-           "/>
+           <font-awesome-icon icon="fa-brands fa-linkedin" class="m-1 linke" />
+           <font-awesome-icon icon="fa-brands fa-instagram" class="m-1 insta"/>
+           <font-awesome-icon icon="fa-brands fa-facebook" class="m-1 face"/>
+           <font-awesome-icon icon="fa-brands fa-twitter" class="m-1 twi"/>
         </div>
     </div>
 </template>
@@ -46,4 +45,9 @@ a{
  .social{
      padding: 4px;
  }
+
+ .linke:hover , .insta:hover , .face:hover, .twi:hover{
+     color: #f2b71d;
+ }
+ 
 </style>

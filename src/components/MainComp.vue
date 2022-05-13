@@ -1,10 +1,22 @@
 <template>
-    <div class="container">
-        <div class="row d-flex bg-img">
-            <h1 class="images">Start your Human <span class="color">Revolution</span> today</h1>
-        </div>
-
-    </div>
+   <main>
+       <section class="jumbo">
+           <h1 class="title">Start your Human <span style="color:#f2b71d">Revolution</span> today</h1>
+           <p class="title2">A wonderfull serenity has taken possession of my entire soul,like <br> these sweet morning of spring which i enjoy with my whole heart</p>
+           <div class="container">
+               <div class="proposal col-6">
+                        <h1 class="text-white padding-top">Limited Sale: <span class="text-black">All courses with 55%</span></h1>
+                    <div class="from-group">
+                        <input type="text" placeholder="Enter yuour E-mail" class="form-control stm_subscribe_email">
+                    </div>
+                    <button class="btn">
+                        <span class="text-uppercase text-white">subscribe</span>
+                    </button>
+                </div>
+           </div>
+           
+       </section>
+   </main>
   
 </template>
 
@@ -15,30 +27,54 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    .bg-img{
+    .jumbo{
         background-image: url('@/images/slide-1.jpg');
-        width: auto;
-        height: 100%;
-        max-width: 1200px;
-    }
-
-    .images{
-        position: relative;
-        left: -120px;
-        box-sizing: border-box;
-        width: 1440px;
-        padding-left: 120px;
-        padding-right: 120px;
-    }
-
-
-    .color{
-        color: #f2b71d;
-    }
-
-    .container{
-        margin: 0;
         width: 100%;
-        padding: 0;
+        position: relative;
+        height: 825px;
+        background-position: 50% 0 !important;
+    }
+
+    .title{
+        position: absolute;
+        left: 50%;
+        top: 30%;
+        font-size: 60px;
+    }
+
+    .title2{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        font-size: 15px;
+    }
+
+    .proposal{
+        width: 70%;
+        background-color: #f2b71d;
+        position: absolute;
+        top:92%;
+        left: 10%;
+        margin-bottom: 20px;
+    }
+
+    .smt_subscribe_email{
+        height: 60px;
+        border-radius: 30px;
+        box-shadow: 0 5px 10px 0 rgba(0,0,0,.1)!important;
+        padding-left: 2rem;
+    }
+
+    .btn{
+        background-color:#252525 ;
+        position: absolute;
+        border-radius: 30px;
+        right: 0%;
+        bottom: 0%;
+    }
+
+    .padding-top{
+        padding-top: 2.5rem;
+        padding-left: 2rem;
     }
 </style>
