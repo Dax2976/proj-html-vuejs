@@ -38,6 +38,9 @@
         <section class="signature">
            <SignatureComp/>
        </section>
+       <section class="cardComp">
+           <CardCompPrice/>
+       </section>
    </main>
   
 </template>
@@ -45,10 +48,12 @@
 <script>
 
 import SignatureComp from '@/components/SignatureComp.vue'
+import CardCompPrice from '@/components/CardCompPrice.vue'
 export default {
     name:'MainComp',
     components:{
-        SignatureComp
+        SignatureComp,
+        CardCompPrice
     }
 }
 </script>
