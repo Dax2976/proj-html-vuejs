@@ -13,6 +13,11 @@
                             </div>
                             <p class="card-text text-center">Electronic</p>
                             <p class="br p-2"></p>
+                            <div class="d-flex iconcont">
+                                <font-awesome-icon icon="fa-solid fa-signal" style="color:#f2b71d" class="icon"/> <span class="text-black" style="font-size: 10px;">Advanced</span>
+                                <font-awesome-icon icon="fa-solid fa-list" style="color:#f2b71d" class="icon" /> <span class="text-black" style="font-size: 10px;">8 lecture</span>
+                                <font-awesome-icon icon="fa-regular fa-clock" style="color:#f2b71d" class="icon"/> <span class="text-black" style="font-size : 10px;">6 hours</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -26,6 +31,11 @@
                             </div>
                             <p class="card-text text-center">Nvidia</p>
                             <p class="br p-2"></p>
+                            <div class="d-flex iconcont">
+                                <font-awesome-icon icon="fa-solid fa-signal" style="color:#f2b71d" class="icon"/> <span class="text-black" style="font-size: 10px;">Advanced</span>
+                                <font-awesome-icon icon="fa-solid fa-list" style="color:#f2b71d" class="icon" /> <span class="text-black" style="font-size: 10px;">8 lecture</span>
+                                <font-awesome-icon icon="fa-regular fa-clock" style="color:#f2b71d" class="icon"/> <span class="text-black" style="font-size : 10px;">6 hours</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -39,6 +49,11 @@
                             </div>
                             <p class="card-text text-center">Fashion</p>
                             <p class="br p-2"></p>
+                            <div class="d-flex iconcont">
+                                <font-awesome-icon icon="fa-solid fa-signal" style="color:#f2b71d" class="icon"/> <span class="text-black" style="font-size: 10px;">Advanced</span>
+                                <font-awesome-icon icon="fa-solid fa-list" style="color:#f2b71d" class="icon" /> <span class="text-black" style="font-size: 10px;">8 lecture</span>
+                                <font-awesome-icon icon="fa-regular fa-clock" style="color:#f2b71d" class="icon"/> <span class="text-black" style="font-size : 10px;">6 hours</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -51,6 +66,11 @@
                             <h5 class="card-title text-center p-4">Design Instrument for Communication</h5>
                             <p class="card-text text-center">Communication</p>
                             <p class="br p-2"></p>
+                            <div class="d-flex iconcont">
+                                <font-awesome-icon icon="fa-solid fa-signal" style="color:#f2b71d" class="icon"/> <span class="text-black" style="font-size: 10px;">Advanced</span>
+                                <font-awesome-icon icon="fa-solid fa-list" style="color:#f2b71d" class="icon" /> <span class="text-black" style="font-size: 10px;">8 lecture</span>
+                                <font-awesome-icon icon="fa-regular fa-clock" style="color:#f2b71d" class="icon"/> <span class="text-black" style="font-size : 10px;">6 hours</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -61,6 +81,11 @@
                             <h5 class="card-title text-center p-4">Make your Concept Right and Beatiful</h5>
                             <p class="card-text text-center">Art</p>
                             <p class="br p-2"></p>
+                            <div class="d-flex iconcont">
+                                <font-awesome-icon icon="fa-solid fa-signal" style="color:#f2b71d" class="icon"/> <span class="text-black" style="font-size: 10px;">Advanced</span>
+                                <font-awesome-icon icon="fa-solid fa-list" style="color:#f2b71d" class="icon" /> <span class="text-black" style="font-size: 10px;">8 lecture</span>
+                                <font-awesome-icon icon="fa-regular fa-clock" style="color:#f2b71d" class="icon"/> <span class="text-black" style="font-size : 10px;">6 hours</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -71,6 +96,11 @@
                             <h5 class="card-title text-center p-4">Road Bike Manual or How to Be a Champion </h5>
                             <p class="card-text text-center">Bicycling</p>
                             <p class="br p-2"></p>
+                            <div class="d-flex iconcont">
+                                <font-awesome-icon icon="fa-solid fa-signal" style="color:#f2b71d" class="icon"/> <span class="text-black" style="font-size: 10px;">Advanced</span>
+                                <font-awesome-icon icon="fa-solid fa-list" style="color:#f2b71d" class="icon" /> <span class="text-black" style="font-size: 10px;">8 lecture</span>
+                                <font-awesome-icon icon="fa-regular fa-clock" style="color:#f2b71d" class="icon"/> <span class="text-black" style="font-size : 10px;">6 hours</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -147,5 +177,12 @@ export default {
     .card-img-top:hover{
         color: black;
         opacity: 1;
+    }
+    .icon{
+        height: 10px;
+    }
+
+    .iconcont{
+        justify-content: space-between;
     }
 </style>
