@@ -35,13 +35,21 @@
                </div>
            </div>
        </section>
+        <section class="signature">
+           <SignatureComp/>
+       </section>
    </main>
   
 </template>
 
 <script>
-export default {
 
+import SignatureComp from '@/components/SignatureComp.vue'
+export default {
+    name:'MainComp',
+    components:{
+        SignatureComp
+    }
 }
 </script>
 
@@ -90,7 +98,8 @@ export default {
         position: absolute;
         border-radius: 30px;
         right: 0%;
-        bottom: 25%;
+        bottom: 19%;
+        height: 50px;
     }
 
     .padding-top{
@@ -110,7 +119,16 @@ export default {
         height: 195px;
     }
 
-    .cotainer{
+    .container{
         width: 70%;
+    }
+
+    .form-control{
+        border-radius: 30px !important;
+        height: 50px !important;
+    }
+
+    .signature{
+        margin-top: 300px;
     }
 </style>
