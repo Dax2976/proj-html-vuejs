@@ -34,6 +34,41 @@
                     </div>
                 </div>
             </div>
+            <div class="row my-4">
+                <div class="col-3">
+                    <div class="card" style="32rem;">
+                        <img src="@/images/12345-1-740x400.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-center p-4">Nvidia and UE4 Technologies Pratice</h5>
+                            <p class="card-text text-center">Nvidia</p>
+                            <p class="br p-2"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="32rem;">
+                        <img src="@/images/12345-1-740x400.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-center p-4">Nvidia and UE4 Technologies Pratice</h5>
+                            <p class="card-text text-center">Nvidia</p>
+                            <p class="br p-2"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="32rem;">
+                        <img src="@/images/12345-1-740x400.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-center p-4">Nvidia and UE4 Technologies Pratice</h5>
+                            <p class="card-text text-center">Nvidia</p>
+                            <p class="br p-2"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btn">
+                <button class="btn text-uppercase text-white bg-warning d-flex align-items-center">load more</button>
+            </div>
         </div>
     </section>
 </template>
@@ -73,6 +108,18 @@ export default {
     .row{
         padding-left: 300px;
         position: relative;
+    }
+
+    .container-fluid{
+        padding-bottom: 5rem;
+    }
+
+    .btn{
         
+        position: relative;
+        left: 325px;
+        top: 20px;
+        border-radius: 30px;
+        font-size: 15px;
     }
 </style>
