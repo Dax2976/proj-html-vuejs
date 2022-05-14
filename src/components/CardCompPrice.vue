@@ -51,7 +51,7 @@
                             <p class="br p-2"></p>
                             <div class="d-flex iconcont">
                                 <font-awesome-icon icon="fa-solid fa-signal" style="color:#f2b71d" class="icon"/> <span class="text-black" style="font-size: 10px;">Advanced</span>
-                                <font-awesome-icon icon="fa-solid fa-list" style="color:#f2b71d" class="icon" /> <span class="text-black" style="font-size: 10px;">8 lecture</span>
+                                <font-awesome-icon icon="fa-solid fa-list" style="color:#f2b71d" class="icon" /> <span class="text-black" style="font-size: 10px;">6 lecture</span>
                                 <font-awesome-icon icon="fa-regular fa-clock" style="color:#f2b71d" class="icon"/> <span class="text-black" style="font-size : 10px;">6 hours</span>
                             </div>
                         </div>
@@ -67,8 +67,8 @@
                             <p class="card-text text-center">Communication</p>
                             <p class="br p-2"></p>
                             <div class="d-flex iconcont">
-                                <font-awesome-icon icon="fa-solid fa-signal" style="color:#f2b71d" class="icon"/> <span class="text-black" style="font-size: 10px;">Advanced</span>
-                                <font-awesome-icon icon="fa-solid fa-list" style="color:#f2b71d" class="icon" /> <span class="text-black" style="font-size: 10px;">8 lecture</span>
+                                <font-awesome-icon icon="fa-solid fa-signal" style="color:#f2b71d" class="icon"/> <span class="text-black" style="font-size: 10px;">Intermediate</span>
+                                <font-awesome-icon icon="fa-solid fa-list" style="color:#f2b71d" class="icon" /> <span class="text-black" style="font-size: 10px;">6 lecture</span>
                                 <font-awesome-icon icon="fa-regular fa-clock" style="color:#f2b71d" class="icon"/> <span class="text-black" style="font-size : 10px;">6 hours</span>
                             </div>
                         </div>
@@ -82,8 +82,8 @@
                             <p class="card-text text-center">Art</p>
                             <p class="br p-2"></p>
                             <div class="d-flex iconcont">
-                                <font-awesome-icon icon="fa-solid fa-signal" style="color:#f2b71d" class="icon"/> <span class="text-black" style="font-size: 10px;">Advanced</span>
-                                <font-awesome-icon icon="fa-solid fa-list" style="color:#f2b71d" class="icon" /> <span class="text-black" style="font-size: 10px;">8 lecture</span>
+                                <font-awesome-icon icon="fa-solid fa-signal" style="color:#f2b71d" class="icon"/> <span class="text-black" style="font-size: 10px;">Intermediate</span>
+                                <font-awesome-icon icon="fa-solid fa-list" style="color:#f2b71d" class="icon" /> <span class="text-black" style="font-size: 10px;">6 lecture</span>
                                 <font-awesome-icon icon="fa-regular fa-clock" style="color:#f2b71d" class="icon"/> <span class="text-black" style="font-size : 10px;">6 hours</span>
                             </div>
                         </div>
@@ -97,8 +97,8 @@
                             <p class="card-text text-center">Bicycling</p>
                             <p class="br p-2"></p>
                             <div class="d-flex iconcont">
-                                <font-awesome-icon icon="fa-solid fa-signal" style="color:#f2b71d" class="icon"/> <span class="text-black" style="font-size: 10px;">Advanced</span>
-                                <font-awesome-icon icon="fa-solid fa-list" style="color:#f2b71d" class="icon" /> <span class="text-black" style="font-size: 10px;">8 lecture</span>
+                                <font-awesome-icon icon="fa-solid fa-signal" style="color:#f2b71d" class="icon"/> <span class="text-black" style="font-size: 10px;">Beginner</span>
+                                <font-awesome-icon icon="fa-solid fa-list" style="color:#f2b71d" class="icon" /> <span class="text-black" style="font-size: 10px;">6 lecture</span>
                                 <font-awesome-icon icon="fa-regular fa-clock" style="color:#f2b71d" class="icon"/> <span class="text-black" style="font-size : 10px;">6 hours</span>
                             </div>
                         </div>
@@ -180,7 +180,7 @@ export default {
         opacity: 1;
     }
     .icon{
-        height: 10px;
+        height: 15px;
     }
 
     .iconcont{
