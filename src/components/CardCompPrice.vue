@@ -5,10 +5,13 @@
             <div class="row">
                 <div class="col-3">
                     <div class="card" style="32rem;">
-                        <img src="@/images/12345-1-740x400.png" alt="" class="card-img-top">
+                        <img src="@/images/photo-1496307042754-b4aa456c4a2d-740x400.jpeg" alt="" class="card-img-top">
                         <div class="card-body">
-                            <h5 class="card-title text-center p-4">Nvidia and UE4 Technologies Pratice</h5>
-                            <p class="card-text text-center">Nvidia</p>
+                            <h5 class="card-title text-center p-4">How to be a DJ? Make Electronic Music</h5>
+                            <div class="special text-uppercase text-white">
+                                special
+                            </div>
+                            <p class="card-text text-center">Electronic</p>
                             <p class="br p-2"></p>
                         </div>
                     </div>
@@ -18,6 +21,9 @@
                         <img src="@/images/12345-1-370x200.png" alt="" class="card-img-top">
                         <div class="card-body">
                             <h5 class="card-title text-center p-4">Nvidia and UE4 Technologies Pratice</h5>
+                            <div class="special text-uppercase text-white">
+                                special
+                            </div>
                             <p class="card-text text-center">Nvidia</p>
                             <p class="br p-2"></p>
                         </div>
@@ -25,10 +31,13 @@
                 </div>
                 <div class="col-3">
                     <div class="card" style="32rem;">
-                        <img src="@/images/12345-1-370x200.png" alt="" class="card-img-top">
+                        <img src="@/images/photo-1491897554428-130a60dd4757-740x400.jpeg" alt="" class="card-img-top">
                         <div class="card-body">
-                            <h5 class="card-title text-center p-4">Nvidia and UE4 Technologies Pratice</h5>
-                            <p class="card-text text-center">Nvidia</p>
+                            <h5 class="card-title text-center p-4">Fashion Photography from professional</h5>
+                            <div class="special text-uppercase text-white">
+                                special
+                            </div>
+                            <p class="card-text text-center">Fashion</p>
                             <p class="br p-2"></p>
                         </div>
                     </div>
@@ -37,30 +46,30 @@
             <div class="row my-4">
                 <div class="col-3">
                     <div class="card" style="32rem;">
-                        <img src="@/images/12345-1-740x400.png" alt="" class="card-img-top">
+                        <img src="@/images/photo-1416339134316-0e91dc9ded92-740x400.jpeg" alt="" class="card-img-top">
                         <div class="card-body">
-                            <h5 class="card-title text-center p-4">Nvidia and UE4 Technologies Pratice</h5>
-                            <p class="card-text text-center">Nvidia</p>
+                            <h5 class="card-title text-center p-4">Design Instrument for Communication</h5>
+                            <p class="card-text text-center">Communication</p>
                             <p class="br p-2"></p>
                         </div>
                     </div>
                 </div>
                 <div class="col-3">
                     <div class="card" style="32rem;">
-                        <img src="@/images/12345-1-740x400.png" alt="" class="card-img-top">
+                        <img src="@/images/cathryn-lavery-67852-unsplash-740x400.jpg" alt="" class="card-img-top">
                         <div class="card-body">
-                            <h5 class="card-title text-center p-4">Nvidia and UE4 Technologies Pratice</h5>
-                            <p class="card-text text-center">Nvidia</p>
+                            <h5 class="card-title text-center p-4">Make your Concept Right and Beatiful</h5>
+                            <p class="card-text text-center">Art</p>
                             <p class="br p-2"></p>
                         </div>
                     </div>
                 </div>
                 <div class="col-3">
                     <div class="card" style="32rem;">
-                        <img src="@/images/12345-1-740x400.png" alt="" class="card-img-top">
+                        <img src="@/images/photo-1475452779376-caebfb988090-740x400.jpeg" alt="" class="card-img-top">
                         <div class="card-body">
-                            <h5 class="card-title text-center p-4">Nvidia and UE4 Technologies Pratice</h5>
-                            <p class="card-text text-center">Nvidia</p>
+                            <h5 class="card-title text-center p-4">Road Bike Manual or How to Be a Champion </h5>
+                            <p class="card-text text-center">Bicycling</p>
                             <p class="br p-2"></p>
                         </div>
                     </div>
@@ -121,5 +130,22 @@ export default {
         top: 20px;
         border-radius: 30px;
         font-size: 15px;
+    }
+
+    .special{
+        background-color: #F09B23;
+        position: absolute;
+        top: 11px;
+        left: 205px;
+        border-radius: 3px;
+        padding: 2px 4px;
+        text-align: center;
+        font-size: 11px;
+
+    }
+
+    .card-img-top:hover{
+        color: black;
+        opacity: 1;
     }
 </style>
