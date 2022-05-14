@@ -3,18 +3,37 @@
        <section class="jumbo">
            <h1 class="title">Start your Human <span style="color:#f2b71d">Revolution</span> today</h1>
            <p class="title2">A wonderfull serenity has taken possession of my entire soul,like <br> these sweet morning of spring which i enjoy with my whole heart</p>
-           <div class="container">
-               <div class="proposal col-6">
-                        <h1 class="text-white padding-top">Limited Sale: <span class="text-black">All courses with 55%</span></h1>
-                    <div class="from-group">
-                        <input type="text" placeholder="Enter yuour E-mail" class="form-control stm_subscribe_email">
+           <div class="container d-flex">
+               <div class="row">
+                    <div class="proposal col-6">
+                            <h1 class="text-white padding-top">Limited Sale: <span class="text-black">All courses with 55%</span></h1>
+                        <div class="from-group">
+                            <input type="text" placeholder="Enter yuour E-mail" class="form-control stm_subscribe_email">
+                        </div>
+                        <button class="btn">
+                            <span class="text-uppercase text-white">subscribe</span>
+                        </button>
                     </div>
-                    <button class="btn">
-                        <span class="text-uppercase text-white">subscribe</span>
-                    </button>
-                </div>
+                    <div class="col-6 proposal2 d-flex align-items-center">
+                        <div class="col-3">
+                            <h1 class="text-white p-1">26</h1>
+                            <p class="text-uppercase text-black m-2">days</p>
+                        </div>
+                        <div class="col-3">
+                            <h1 class="text-white p-1">01</h1>
+                            <p class="text-uppercase text-black m-2">hours</p>
+                        </div>
+                        <div class="col-3">
+                            <h1 class="text-white p-1">43</h1>
+                            <p class="text-uppercase text-black m-2">minutes</p>
+                        </div>
+                        <div class="col-3">
+                            <h1 class="text-white p-1">33</h1>
+                            <p class="text-uppercase text-black m-2">seconds</p>
+                        </div>
+                    </div>
+               </div>
            </div>
-           
        </section>
    </main>
   
@@ -50,12 +69,13 @@ export default {
     }
 
     .proposal{
-        width: 70%;
+        width: 50%;
         background-color: #f2b71d;
         position: absolute;
         top:92%;
         left: 10%;
         margin-bottom: 20px;
+        height: 195px;
     }
 
     .smt_subscribe_email{
@@ -70,11 +90,27 @@ export default {
         position: absolute;
         border-radius: 30px;
         right: 0%;
-        bottom: 0%;
+        bottom: 25%;
     }
 
     .padding-top{
         padding-top: 2.5rem;
         padding-left: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .proposal2{
+       width: 30%;
+        background-color: #f2b71d;
+        position: absolute;
+        top: 92%;
+        left: 60%;
+        display: flex;
+        margin-bottom: 20px;
+        height: 195px;
+    }
+
+    .cotainer{
+        width: 70%;
     }
 </style>
