@@ -3,7 +3,7 @@
         <div class="container-fluid">
             <h1 class="text-black center p-5">New Courses</h1>
             <div class="row">
-                <div class="col-3">
+                <div class="col-4">
                     <div class="card" style="32rem;">
                         <img src="@/images/photo-1496307042754-b4aa456c4a2d-740x400.jpeg" alt="" class="card-img-top">
                         <div class="card-body">
@@ -21,7 +21,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-4">
                     <div class="card" style="32rem;">
                         <img src="@/images/12345-1-370x200.png" alt="" class="card-img-top">
                         <div class="card-body">
@@ -39,7 +39,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-4">
                     <div class="card" style="32rem;">
                         <img src="@/images/photo-1491897554428-130a60dd4757-740x400.jpeg" alt="" class="card-img-top">
                         <div class="card-body">
@@ -59,7 +59,7 @@
                 </div>
             </div>
             <div class="row my-4">
-                <div class="col-3">
+                <div class="col-4">
                     <div class="card" style="32rem;">
                         <img src="@/images/photo-1416339134316-0e91dc9ded92-740x400.jpeg" alt="" class="card-img-top">
                         <div class="card-body">
@@ -74,7 +74,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-4">
                     <div class="card" style="32rem;">
                         <img src="@/images/cathryn-lavery-67852-unsplash-740x400.jpg" alt="" class="card-img-top">
                         <div class="card-body">
@@ -89,7 +89,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-4">
                     <div class="card" style="32rem;">
                         <img src="@/images/photo-1475452779376-caebfb988090-740x400.jpeg" alt="" class="card-img-top">
                         <div class="card-body">
@@ -145,7 +145,8 @@ export default {
     }
 
     .row{
-        padding-left: 300px;
+        padding-left: 150px;
+        padding-right: 150px;
         position: relative;
     }
 
@@ -156,7 +157,7 @@ export default {
     .btn{
         
         position: relative;
-        left: 325px;
+        left: 320px;
         top: 20px;
         border-radius: 30px;
         font-size: 15px;
@@ -166,7 +167,7 @@ export default {
         background-color: #F09B23;
         position: absolute;
         top: 11px;
-        left: 205px;
+        left: 295px;
         border-radius: 3px;
         padding: 2px 4px;
         text-align: center;
