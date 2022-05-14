@@ -41,7 +41,7 @@ export default {
         color: #f2b71d;
         font-size: 42px;
         padding-left: 200px;
-        padding-top: 150px;
+        padding-top: 110px;
         padding-bottom: 2rem;
     }
 
@@ -57,5 +57,9 @@ export default {
     .amzImg{
         width: 35%;
         padding-left: 170px;
+    }
+
+    .amzImg:hover{
+        cursor: pointer;
     }
 </style>
