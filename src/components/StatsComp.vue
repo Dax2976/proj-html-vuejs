@@ -68,12 +68,13 @@ export default {
     .status{
         color: #f2b71d;
         font-size: 42px;
+        font-weight: 600;
 
     }
 
     .people{
         color: white;
-        font-size: 30px;
+        font-size: 42px;
         display: flex        
         
     }

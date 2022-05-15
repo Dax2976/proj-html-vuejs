@@ -50,6 +50,9 @@
        <section class="Stats">
            <StatsComp/>
        </section>
+       <section class="student">
+           <StudentComp/>
+       </section>
    </main>
   
 </template>
@@ -59,6 +62,7 @@
 import SignatureComp from '@/components/SignatureComp.vue'
 import CardCompPrice from '@/components/CardCompPrice.vue'
 import StatsComp from '@/components/StatsComp.vue'
+import StudentComp from '@/components/StudentComp.vue'
 import BookComp from '@/components/BookComp.vue'
 import MyCourse from '@/components/MyCourse.vue'
 export default {
@@ -69,6 +73,7 @@ export default {
         BookComp,
         MyCourse,
         StatsComp,
+        StudentComp,
     }
 }
 </script>
