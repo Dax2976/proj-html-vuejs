@@ -44,6 +44,7 @@ a{
 
  .social{
      padding: 4px;
+     padding-left: 200px;
  }
 
  .linke:hover , .insta:hover , .face:hover, .twi:hover{

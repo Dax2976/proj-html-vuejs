@@ -5,12 +5,13 @@
             <div class="row">
                 <div class="col-4">
                     <div class="card" style="32rem;">
-                        <img src="@/images/photo-1496307042754-b4aa456c4a2d-740x400.jpeg" alt="" class="card-img-top">
+                        <img src="@/images/photo-1496307042754-b4aa456c4a2d-740x400.jpeg" alt="" class="card-img-top imgHover">
+                        <span class="hidden">£59</span>
+                        <div class="special text-uppercase text-white">
+                            special
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title text-center p-4">How to be a DJ? Make Electronic Music</h5>
-                            <div class="special text-uppercase text-white">
-                                special
-                            </div>
                             <p class="card-text text-center">Electronic</p>
                             <p class="br p-2"></p>
                             <div class="d-flex iconcont">
@@ -24,11 +25,11 @@
                 <div class="col-4">
                     <div class="card" style="32rem;">
                         <img src="@/images/12345-1-370x200.png" alt="" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title text-center p-4">Nvidia and UE4 Technologies Pratice</h5>
-                            <div class="special text-uppercase text-white">
+                        <div class="special text-uppercase text-white">
                                 special
                             </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center p-4">Nvidia and UE4 Technologies Pratice</h5>
                             <p class="card-text text-center">Nvidia</p>
                             <p class="br p-2"></p>
                             <div class="d-flex iconcont">
@@ -42,11 +43,11 @@
                 <div class="col-4">
                     <div class="card" style="32rem;">
                         <img src="@/images/photo-1491897554428-130a60dd4757-740x400.jpeg" alt="" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title text-center p-4">Fashion Photography from professional</h5>
-                            <div class="special text-uppercase text-white">
+                        <div class="special text-uppercase text-white">
                                 special
                             </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center p-4">Fashion Photography from professional</h5>
                             <p class="card-text text-center">Fashion</p>
                             <p class="br p-2"></p>
                             <div class="d-flex iconcont">
@@ -105,8 +106,12 @@
                     </div>
                 </div>
             </div>
-            <div class="btn">
-                <button class="btn opacity text-uppercase text-white bg-warning d-flex align-items-center">load more</button>
+            <div class="container d-flex text-center">
+                <div class="col-12">
+                    <div class="btn">
+                        <button class="btn opacity text-uppercase text-white bg-warning">load more</button>
+                    </div>
+            </div>
             </div>
         </div>
     </section>
@@ -156,9 +161,9 @@ export default {
 
     .btn{
         
-        position: relative;
-        left: 430px;
-        top: 20px;
+        // position: relative;
+        // left: 315px;
+        // top: 20px;
         border-radius: 30px;
         font-size: 15px;
     }
@@ -171,8 +176,8 @@ export default {
     .special{
         background-color: #F09B23;
         position: absolute;
-        top: 11px;
-        left: 450px;
+        // top: 11px;
+        // left: 290px;
         border-radius: 3px;
         padding: 2px 4px;
         text-align: center;
@@ -191,4 +196,25 @@ export default {
     .iconcont{
         justify-content: space-between;
     }
+
+    .hidden{
+        position:absolute;
+        top: 125px;
+        left: 230px;
+        color: white;
+        font-size: 28px;
+        font-weight: 600;
+        display: none;
+    }
+
+    .imgHover:hover{
+        cursor: pointer; 
+        opacity: 0.8;
+    }
+
+    :hover + span{
+       display: block;
+    }
+
+   
 </style>
