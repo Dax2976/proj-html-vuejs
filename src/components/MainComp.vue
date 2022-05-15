@@ -44,6 +44,9 @@
        <section class="bookComp">
            <BookComp/>
        </section>
+       <section class="whyCourse">
+           <MyCourse/>
+       </section>
    </main>
   
 </template>
@@ -53,12 +56,14 @@
 import SignatureComp from '@/components/SignatureComp.vue'
 import CardCompPrice from '@/components/CardCompPrice.vue'
 import BookComp from '@/components/BookComp.vue'
+import MyCourse from '@/components/MyCourse.vue'
 export default {
     name:'MainComp',
     components:{
         SignatureComp,
         CardCompPrice,
         BookComp,
+        MyCourse,
     }
 }
 </script>

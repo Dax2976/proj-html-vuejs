@@ -106,7 +106,7 @@
                 </div>
             </div>
             <div class="btn">
-                <button class="btn text-uppercase text-white bg-warning d-flex align-items-center">load more</button>
+                <button class="btn opacity text-uppercase text-white bg-warning d-flex align-items-center">load more</button>
             </div>
         </div>
     </section>
@@ -161,6 +161,11 @@ export default {
         top: 20px;
         border-radius: 30px;
         font-size: 15px;
+    }
+
+    .btn:hover{
+        filter: opacity(1);
+        
     }
 
     .special{
