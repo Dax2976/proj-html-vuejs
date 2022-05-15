@@ -74,8 +74,10 @@ export default {
 
     .people{
         color: white;
-        font-size: 42px;
-        display: flex        
+        font-size: 70px;
+        float: left;       
+        position: relative;
+       margin: 0 29px 0 0 ;
         
     }
 
@@ -86,7 +88,7 @@ export default {
     }
 
     .online{
-        font-size: 22px;
+        font-size: 16px;
     }
 
 </style>

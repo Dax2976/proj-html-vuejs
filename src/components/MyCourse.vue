@@ -83,7 +83,7 @@ export default {
     }
 
     .col-6{
-        // height: 70%;
+        height: 35%;
         border-left: 6px solid #f2b71d;
         box-shadow: 0 6px 20px 0 rgb(0 0 0 / 14%);;
         
