@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
+import "@fontsource/roboto-slab"
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faUserSecret, faMagnifyingGlass,faSignal,faList,faBriefcase,faRocket,faGear,faUserGroup,faPhotoFilm, faImage,faRightLong,faLeftLong, faStar} from '@fortawesome/free-solid-svg-icons'
 import {faClock,faThumbsUp} from '@fortawesome/free-regular-svg-icons'

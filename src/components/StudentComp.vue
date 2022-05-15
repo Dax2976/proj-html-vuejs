@@ -10,7 +10,7 @@
                     <img src="@/images/4-100x100.jpg" alt="" class="img3 p-1">
                     <font-awesome-icon icon="fa-solid fa-right-long" class="mx-5 arrow" />
                 </div>
-                <p class="Future mt-4">Paints of the Future</p>
+                <h4 class="Future mt-4">Paints of the Future</h4>
                 <div class="star">
                     <font-awesome-icon icon="fa-solid fa-star" />
                     <font-awesome-icon icon="fa-solid fa-star" />
@@ -55,5 +55,10 @@ export default {
        
        color: #f2b71d;
         
+    }
+
+    .Future{
+        font-weight: 600;
+        font-size: 20px;
     }
 </style>
