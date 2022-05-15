@@ -1,7 +1,7 @@
 <template>
    <main>
        <section class="jumbo">
-           <h1 class="title">Start your Human <span style="color:#f2b71d">Revolution</span> today</h1>
+           <h1 class="title">Start your Human <span style="color:#f2b71d"> <br> Revolution</span> today</h1>
            <p class="title2">A wonderfull serenity has taken possession of my entire soul,like <br> these sweet morning of spring which i enjoy with my whole heart</p>
            <div class="container d-flex">
                <div class="row">
@@ -140,5 +140,6 @@ export default {
 
     .signature{
         margin-top: 300px;
+        width: 100%;
     }
 </style>

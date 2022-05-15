@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container w-100">
         <div class="row">
             <div class="col-6">
                 <h1 class="text-black"><strong>Hey there, my name is Jhon doe. I'm the founder of the Brain Accademy</strong></h1>

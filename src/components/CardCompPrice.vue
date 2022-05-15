@@ -123,7 +123,7 @@ export default {
 
 <style lang="scss" scoped>
     .CardComp{
-        width: 1440px;
+        // width: 1440px;
         background-color: #EDF2F5;
     }
 
@@ -157,7 +157,7 @@ export default {
     .btn{
         
         position: relative;
-        left: 320px;
+        left: 430px;
         top: 20px;
         border-radius: 30px;
         font-size: 15px;

@@ -26,15 +26,16 @@ export default {
     .backImg{
         background-image: url('@/images/slider_1-1917x607-1914x606.jpg');
         height: 503px;
-        width: 1440px;
+       
     }
 
     .book{
         height: 100%;
-        width: 100%;
-        padding-top: 96px;
-        padding-right: 50px;
-        margin-left: -150px; 
+        width: 75%;
+        padding-right: 65px;
+         margin-left: -150px;
+        padding-top: 109px;
+        margin-bottom: -2px;
     }
 
     .textYellow{
