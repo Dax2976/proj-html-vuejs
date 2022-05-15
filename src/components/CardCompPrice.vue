@@ -167,7 +167,7 @@ export default {
         background-color: #F09B23;
         position: absolute;
         top: 11px;
-        left: 295px;
+        left: 450px;
         border-radius: 3px;
         padding: 2px 4px;
         text-align: center;
