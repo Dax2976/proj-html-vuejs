@@ -16,19 +16,19 @@
                     </div>
                     <div class="col-6 proposal2 d-flex align-items-center">
                         <div class="col-3">
-                            <h1 class="text-white p-1 bold">26</h1>
+                            <h2 class="text-white p-1 bold display-5">26</h2>
                             <p class="text-uppercase text-black m-2 bold">days</p>
                         </div>
                         <div class="col-3">
-                            <h1 class="text-white p-1 bold">01</h1>
+                            <h2 class="text-white p-1 bold display-5">01</h2>
                             <p class="text-uppercase text-black m-2 bold">hours</p>
                         </div>
                         <div class="col-3">
-                            <h1 class="text-white p-1 bold">43</h1>
+                            <h2 class="text-white p-1 bold display-5">43</h2>
                             <p class="text-uppercase text-black m-2 bold">minutes</p>
                         </div>
                         <div class="col-3">
-                            <h1 class="text-white p-1 bold">33</h1>
+                            <h2 class="text-white p-1 bold display-5" id="seconds">{{timercount}}</h2>
                             <p class="text-uppercase text-black m-2 bold">seconds</p>
                         </div>
                     </div>
@@ -74,6 +74,25 @@ export default {
         MyCourse,
         StatsComp,
         StudentComp,
+    },
+
+    data(){
+        return{
+            timercount: 59
+        }
+    },
+
+    watch:{
+        timercount:{
+            handler(value){
+                if(value > 0 ){
+                    setTimeout(() =>{
+                        this.timercount--
+                    },1000)
+                }
+            },
+            immediate:true
+        }
     }
 }
 </script>

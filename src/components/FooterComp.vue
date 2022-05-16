@@ -4,8 +4,8 @@
             <div class="container d-flex p-5">
                 <div class="row">
                     <div class="col-3" v-for="(content, index) in about" :key="index">
-                        <h5 class="">{{content.title}}</h5>
-                        <p class="">{{content.p}}</p>
+                        <h5 class="pt-4">{{content.title}}</h5>
+                        <p class="pt-3">{{content.p}}</p>
                         <div class="social" style="font-size:22px;">
                             <font-awesome-icon icon="fa-brands fa-facebook" class="m-2" />
                             <font-awesome-icon icon="fa-brands fa-twitter" class="m-2" />
@@ -13,36 +13,42 @@
                         </div>
                     </div>
                     <div class="col-3" v-for="(content, index) in contacts" :key="'a'+ index">
-                        <h5 class="">{{content.title}}</h5>
-                        <p class="">{{content.p}}</p>
-                        <p class="">{{content.p2}}</p>
+                        <h5 class="pt-4">{{content.title}}</h5>
+                        <p class="pt-3">{{content.p}}</p>
+                        <p class="m-0">{{content.p2}}</p>
                         <p class="">{{content.p11}}</p>
                         <p class="">{{content.p3}}</p>
                     </div>
                     <div class="col-3" v-for="(content, index) in pages" :key="'b' + index">
-                        <h5 class="">{{content.title}}</h5>
-                        <ul>
-                            <li>
-                                {{content.p}}
-                            </li>
-                            <li>{{content.p4}}</li>
-                            <li>{{content.p5}}</li>
-                            <li>{{content.p6}}</li>
-                            <li>{{content.p7}}</li>
-                            <li>{{content.p8}}</li>
+                        <h5 class="pt-4 container d-flex">{{content.title}}</h5>
+                        <ul class="d-flex flex-wrap gap-4 pt-3">
+                            <div class="font">
+                                <li class="p-1">{{content.p}}</li>
+                                <li class="p-1">{{content.p4}}</li>
+                                <li class="p-1">{{content.p5}}</li>
+                            </div>
+                            <div class="font">
+                                <li class="p-1">{{content.p6}}</li>
+                                <li class="p-1">{{content.p7}}</li>
+                                <li class="p-1">{{content.p8}}</li>
+                            </div>
                         </ul>
                     </div>
                     <div class="col-3" v-for="(content, index) in blog" :key="'c' + index">
-                        <h5 class="">{{content.title}}</h5>
-                        <div class="d-flex">
+                        <h5 class="pt-4">{{content.title}}</h5>
+                        <div class="d-flex gap-4">
                             <img src="@/images/photo-1517520287167-4bbf64a00d66-75x75.jpeg" alt="">
-                            <h5 class="">{{content.title2}}</h5>
-                            <p class="">{{content.p9}}</p>
+                            <div class="">
+                                <h5 class="">{{content.title2}}</h5>
+                                <p class="grey">{{content.p9}}</p>
+                            </div>
                         </div>
-                        <div class="d-flex">
+                        <div class="d-flex gap-4">
                             <img src="@/images/photo-1490376840453-5f616fbebe5b-75x75.jpeg" alt="">
-                            <h5 class="">{{content.title3}}</h5>
-                            <p class="">{{content.p10}}</p>
+                            <div>
+                                <h5 class="">{{content.title3}}</h5>
+                                <p class="grey">{{content.p10}}</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -78,7 +84,7 @@ export default {
                     p8:'Typography'
                 }],
                 blog:[{
-                    title:'Blog',
+                    title:'BLOG',
                     img1:'@/images/photo-1517520287167-4bbf64a00d66-75x75.jpeg',
                     title2:'"Our main target is to “Developing Yourself as a Leader"',
                     p9:'- August 9, 2018',
@@ -103,6 +109,14 @@ img{
 
 h5{
     font-weight: 600;
+}
+
+.grey{
+    color: gray;
+}
+
+.font{
+    font-size: 15px;
 }
 
 </style>
