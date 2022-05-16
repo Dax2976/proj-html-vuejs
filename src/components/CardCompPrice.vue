@@ -5,7 +5,9 @@
             <div class="row">
                 <div class="col-4">
                     <div class="card" style="32rem;">
-                        <img src="@/images/photo-1496307042754-b4aa456c4a2d-740x400.jpeg" alt="" class="card-img-top imgHover">
+                        <div class="blacklabel">
+                            <img src="@/images/photo-1496307042754-b4aa456c4a2d-740x400.jpeg" alt="" class="card-img-top imgHover">
+                        </div>
                         <span class="hidden">£59</span>
                         <div class="special text-uppercase text-white  d-flex align-self-end m-3">
                             special
@@ -108,7 +110,7 @@
             </div>
             <div class="container d-flex text-center">
                 <div class="col-12">
-                    <div class="btn">
+                    <div class="btn blackhover">
                         <button class="btn opacity text-uppercase text-white bg-warning">load more</button>
                     </div>
             </div>
@@ -169,7 +171,8 @@ export default {
     }
 
     .btn:hover{
-        filter: opacity(1);
+        filter: opacity(0.8);
+       
         
     }
 
@@ -207,14 +210,23 @@ export default {
         display: none;
     }
 
-    .imgHover:hover{
-        cursor: pointer; 
-        opacity: 0.8;
-    }
+    // .imgHover:hover{
+    //     cursor: pointer; 
+    //     opacity: 0.8;
+    // }
 
     :hover + span{
        display: block;
     }
 
+
+    .blacklabel{
+        background-color: #000;
+    }
+
+    .blacklabel:hover{
+        opacity: 0.8;
+        background-color: #000;
+    }
    
 </style>

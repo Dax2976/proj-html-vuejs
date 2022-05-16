@@ -16,20 +16,20 @@
                     </div>
                     <div class="col-6 proposal2 d-flex align-items-center">
                         <div class="col-3">
-                            <h1 class="text-white p-1">26</h1>
-                            <p class="text-uppercase text-black m-2">days</p>
+                            <h1 class="text-white p-1 bold">26</h1>
+                            <p class="text-uppercase text-black m-2 bold">days</p>
                         </div>
                         <div class="col-3">
-                            <h1 class="text-white p-1">01</h1>
-                            <p class="text-uppercase text-black m-2">hours</p>
+                            <h1 class="text-white p-1 bold">01</h1>
+                            <p class="text-uppercase text-black m-2 bold">hours</p>
                         </div>
                         <div class="col-3">
-                            <h1 class="text-white p-1">43</h1>
-                            <p class="text-uppercase text-black m-2">minutes</p>
+                            <h1 class="text-white p-1 bold">43</h1>
+                            <p class="text-uppercase text-black m-2 bold">minutes</p>
                         </div>
                         <div class="col-3">
-                            <h1 class="text-white p-1">33</h1>
-                            <p class="text-uppercase text-black m-2">seconds</p>
+                            <h1 class="text-white p-1 bold">33</h1>
+                            <p class="text-uppercase text-black m-2 bold">seconds</p>
                         </div>
                     </div>
                </div>
@@ -122,7 +122,7 @@ export default {
         background-color:#252525 ;
         position: absolute;
         border-radius: 30px;
-        right: 0%;
+        right: 29%;
         bottom: 19%;
         height: 50px;
     }
@@ -156,5 +156,13 @@ export default {
     .signature{
         margin-top: 300px;
         width: 100%;
+    }
+
+    .bold{
+        font-weight: 600;
+    }
+
+    .form-control{
+        width: 66% !important;
     }
 </style>

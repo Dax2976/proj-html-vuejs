@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container mb-5">
         <div class="row">
             <nav class="text-center">
                 <h1 class="text-center p-5">What Students Say</h1>
