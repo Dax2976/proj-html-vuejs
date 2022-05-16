@@ -7,7 +7,7 @@
                     <div class="card" style="32rem;">
                         <img src="@/images/photo-1496307042754-b4aa456c4a2d-740x400.jpeg" alt="" class="card-img-top imgHover">
                         <span class="hidden">£59</span>
-                        <div class="special text-uppercase text-white">
+                        <div class="special text-uppercase text-white  d-flex align-self-end m-3">
                             special
                         </div>
                         <div class="card-body">
@@ -25,7 +25,7 @@
                 <div class="col-4">
                     <div class="card" style="32rem;">
                         <img src="@/images/12345-1-370x200.png" alt="" class="card-img-top">
-                        <div class="special text-uppercase text-white">
+                        <div class="special text-uppercase text-white  d-flex align-self-end m-3">
                                 special
                             </div>
                         <div class="card-body">
@@ -43,7 +43,7 @@
                 <div class="col-4">
                     <div class="card" style="32rem;">
                         <img src="@/images/photo-1491897554428-130a60dd4757-740x400.jpeg" alt="" class="card-img-top">
-                        <div class="special text-uppercase text-white">
+                        <div class="special text-uppercase text-white  d-flex align-self-end m-3">
                                 special
                             </div>
                         <div class="card-body">

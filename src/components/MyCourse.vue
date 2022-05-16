@@ -59,13 +59,14 @@ export default {
     .textLow{
         color: #888888;
         font-size: 15px;
-        line-height: 28px;
+        text-align: center;
     }
 
     .icon{
         font-size:  63px;
-        padding: 50px;
+        padding: 56px 41px 41px;
         color: #f2b71d;
+        float: left;
        
         
     }
